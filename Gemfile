@@ -61,6 +61,7 @@ end
 
 gem 'devise'
 
+gem 'gravtastic'
 
 
 
