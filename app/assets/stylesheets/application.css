@@ -1,0 +1,68 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body { padding-top: 100px;
+font-family: 'Open Sans', sans-serif; 
+/*background-color:#EFFFFF;*/
+background: pink;
+
+	}
+footer { margin-top: 100px; }
+table, td, th { vertical-align: middle; border: none; }
+th { border-bottom: 1px solid #DDD; }
+
+h1 {
+	color:gray;
+	font-style: bold; 
+	text-align: center;
+padding-bottom: 30px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 300 !important;
+
+}
+
+h3 {
+	text-align: center;
+	font-weight: 300 !important;
+}
+
+td .image_td {
+	width:30%;
+}
+
+.idea_picture img {
+	max-width:100%;
+	padding:20px;
+}
+
+.idea_links p {
+	display: inline;
+	text-align: center;
+}
+.idea_links {
+	text-align: center;
+	padding-top: 20px;
+
+}
+.tile {
+	background-color: white;
+	min-height: 350px;
+	margin:10px;
+	padding:10px;
+	-webkit-box-shadow: 6px 6px 20px -11px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 20px -11px rgba(0,0,0,0.75);
+box-shadow: 6px 6px 20px -11px rgba(0,0,0,0.75);
+}
