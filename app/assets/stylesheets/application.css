@@ -66,3 +66,12 @@ td .image_td {
 -moz-box-shadow: 6px 6px 20px -11px rgba(0,0,0,0.75);
 box-shadow: 6px 6px 20px -11px rgba(0,0,0,0.75);
 }
+
+.shortDesc {
+	line-height:1.5em;
+	height:3em;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	width: 100%;
+}
